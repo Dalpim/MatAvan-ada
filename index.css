@@ -1,0 +1,48 @@
+.imagem-fundo{
+background-image: url(fundo.jpg);
+position: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -4;
+}
+.container{
+    
+    z-index: -4;
+}
+
+.cima{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(20, 39, 126);
+    padding: 5px;
+    text-align: justify-all;
+
+}
+.navegacao{
+    height: 100px;
+    width: 100%;
+}
+ ::-webkit-scrollbar{
+    width: 10px;
+}
+ ::-webkit-scrollbar-track{
+    background: #2196F3;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background: #9e9e9e;
+    border-radius: 30px
+}
+.barra{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+}
+.text{
+    text-align: justify-all;    
+}
